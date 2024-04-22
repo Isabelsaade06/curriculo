@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap');
+
+
+body {
+    background-color: #3D414C;
+}
+
+.BlocoPrincipal {
+    background-color: #2B3A62;
+    font-size: 180%;
+    color: #d3d3d3;
+    border-radius: 10%;
+    padding-top: 2%;
+    padding-left: 4%;
+    padding-right: 4%;
+    padding-bottom: 7%;
+}
+
+.BlocoPrincipal h1 {
+    font-size: 250%;
+    text-align: center;
+    font-family: "Shadows Into Light", sans-serif;
+}
+
+.BlocoPrincipal img {
+    display: flex;
+    border-radius: 10%;
+    padding-right: 10px;
+    float: left;
+    width: 30%;
+}
+
+.CorpoTexto{
+    display: flex;
+    margin-top: 5%;
+}
+.CorpoTexto .Habilidades h2,
+.CorpoTexto .Interesses h2 {
+    font-size: 250%;
+    color: #1f2946;
+    background-color: #838AA0;
+    text-align: center;
+    margin: 5% 10%;
+}
+
+.CorpoTexto ul {
+    font-size: 170%;
+    justify-content: center;
+    margin: 0px 20%;
+    color: rgb(193, 203, 211); 
+}
+
+.CorpoTexto .Habilidades {
+    width: 50%;
+    float: left;
+}
+
+.CorpoTexto .Interesses {
+    width: 50%;
+    float: right;
+}
+
+.Redes h2 {
+    font-size: 700%;
+    text-align: center;
+    color: #838AA0;
+}
+
+.Redes a img{
+    justify-content: center;
+    margin: 0 10%;
+    width: 10%;
+    background-color: #2B3A62;
+    border-radius: 15%;
+}
